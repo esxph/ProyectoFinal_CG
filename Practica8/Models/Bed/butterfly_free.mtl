@@ -1,0 +1,66 @@
+newmtl abdomen
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd body_albedo.jpg
+Ni 1.45
+Ks 0.00 0.00 0.00
+map_Ks body_specular.jpg
+Ns 225.00
+newmtl antenna
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd body_albedo.jpg
+Ni 1.45
+Ks 0.00 0.00 0.00
+map_Ks body_specular.jpg
+Ns 225.00
+newmtl eyes
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.00 0.00 0.00
+Ns 225.00
+newmtl head
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd body_albedo.jpg
+Ni 1.45
+Ks 0.00 0.00 0.00
+map_Ks body_specular.jpg
+Ns 225.00
+newmtl joint
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd body_albedo.jpg
+Ni 1.45
+Ks 0.00 0.00 0.00
+map_Ks body_specular.jpg
+Ns 225.00
+newmtl legs
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 225.00
+newmtl thorax
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd body_albedo.jpg
+Ni 1.45
+Ks 0.00 0.00 0.00
+map_Ks body_specular.jpg
+Ns 225.00
