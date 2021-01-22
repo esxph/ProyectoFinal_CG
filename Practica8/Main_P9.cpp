@@ -33,7 +33,7 @@ void goBackwards();
 
 
 // Camera
-Camera camera( glm::vec3( 0.0f, 0.0f, 3.0f ) );
+Camera camera( glm::vec3( -10.0f, 10.0f, 23.0f ) );
 bool keys[1024];
 GLfloat lastX = 400, lastY = 300;
 bool firstMouse = true;
@@ -97,12 +97,24 @@ int main( )
     Shader shader( "Shaders/modelLoading.vs", "Shaders/modelLoading.frag" );
     
     // Load models
-    Model ourModel  ((char *)"Models/House/House/Bed.obj");
-    Model ourModel2 ((char*) "Models/House/House/floor.obj");
-    Model ourModel3((char*)"Models/House/House/chair.obj");
-    Model ourModel4((char*)"Models/Fishes/TropicalFish04.obj");
-    Model ourModel5((char*)"Models/Fishes/TropicalFish05.obj");
-   
+    Model ourModel  ((char *)"Models/HouseModel/HouseModel.obj");
+    Model ourModel2 ((char*) "Models/Couch/Couch.obj");
+    Model ourModel3((char*) "Models/TvStand/tvStand.obj");
+    Model ourModel4((char*)"Models/Bed/Bed.obj");
+    Model ourModel5((char*)"Models/Basket/Basket.obj");
+    Model deskRoom((char*) "Models/Desk/desk.obj");
+    Model drawerDesk((char*)"Models/Desk/cajon.obj");
+    Model chairRoom((char*)"Models/Chair/chair.obj");
+    Model carModel((char*)"Models/Car/car.obj");
+    Model bearModel((char*)"Models/Bear/bear.obj");
+
+    Model drawerModel((char*)"Models/Drawer/drawer.obj");
+    Model lampModel((char*)"Models/Lamp/lamp.obj");
+    Model closetModel((char*)"Models/Closet/closet.obj");
+    Model tableModel((char*)"Models/Table/table.obj");
+    Model couch2Model((char*)"Models/Couch/Couch2ndfloor.obj");
+    Model couch3Model((char*)"Models/Couch/Couch2ndfloor2.obj");
+    Model plantModel((char*)"Models/Plant/plant.obj"); 
 
     // Draw in wireframe
     //glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
@@ -134,29 +146,101 @@ int main( )
         
         // Draw the loaded model
         glm::mat4 model(1);
-        model = glm::translate( model, glm::vec3( 0.0f, 0.0f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
-        model = glm::scale( model, glm::vec3( 1.2f, 1.2f, 1.2f ) );	// It's a bit too big for our scene, so scale it down
+        glm::mat4 backup;
+       
+        //model = glm::translate( model, glm::vec3( 0.0f, 0.0f, 0.0f ) ); // Translate it down a bit so it's at the center of the scene
+       // model = glm::scale( model, glm::vec3( 1.2f, 1.2f, 1.2f ) );	// It's a bit too big for our scene, so scale it down
 		//model = glm::rotate(model, (float)glfwGetTime(), glm::vec3(0.0f, 1.0f, 0.0f));
 		glUniformMatrix4fv( glGetUniformLocation( shader.Program, "model" ), 1, GL_FALSE, glm::value_ptr( model ) );
         ourModel.Draw(shader);
       
-      
-        model = glm::translate(model, glm::vec3(0.0f, -0.5f, 0.0f)); // Translate it down a bit so it's at the center of the scene
-        model = glm::scale(model, glm::vec3(1.2f, 1.2f, 1.2f));	// It's a bit too big for our scene, so scale it down
+        backup = model;
+
+        // model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f)); // Translate it down a bit so it's at the center of the scene
+        // model = glm::scale(model, glm::vec3(2.2f, 2.2f, 2.2f));	// It's a bit too big for our scene, so scale it down
         //model = glm::rotate(model, (float)glfwGetTime(), glm::vec3(0.0f, 1.0f, 0.0f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         // Swap the buffers
 
         ourModel2.Draw(shader);
-        model = glm::translate(model, glm::vec3(-3.0f, 0.5f, +3.0f)); // Translate it down a bit so it's at the center of the scene
-        model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));	// It's a bit too big for our scene, so scale it down
-        model = glm::rotate(model, -30.0f, glm::vec3(0.0f, 1.0f, 0.0f));
+
+
+
+        //model = glm::translate(model, glm::vec3(0.0f, 0.5f, 0.0f)); // Translate it down a bit so it's at the center of the scene
+        //model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));	// It's a bit too big for our scene, so scale it down
+        //model = glm::rotate(model, -30.0f, glm::vec3(0.0f, 1.0f, 0.0f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        // Swap the buffers
+        //// Swap the buffers
        
 
         ourModel3.Draw(shader);
 
+
+        //model = glm::translate(model, glm::vec3(-5.0f, 0.5f, +3.0f)); // Translate it down a bit so it's at the center of the scene
+        //model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));	// It's a bit too big for our scene, so scale it down
+        //model = glm::rotate(model, -30.0f, glm::vec3(0.0f, 1.0f, 0.0f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        //// Swap the buffers
+
+
+        ourModel4.Draw(shader);
+
+        //model = glm::translate(model, glm::vec3(-9.0f, 0.5f, +3.0f)); // Translate it down a bit so it's at the center of the scene
+        //model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));	// It's a bit too big for our scene, so scale it down
+       // model = glm::rotate(model, -30.0f, glm::vec3(0.0f, 1.0f, 0.0f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        //// Swap the buffers
+
+
+        ourModel5.Draw(shader);
+
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        deskRoom.Draw(shader);
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        drawerDesk.Draw(shader);
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        chairRoom.Draw(shader);
+
+        model = glm::translate(model, glm::vec3(7.7f, -0.763f, -3.005f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        carModel.Draw(shader);
+
+        model = backup;
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        bearModel.Draw(shader);
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        drawerModel.Draw(shader);
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        lampModel.Draw(shader);
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        closetModel.Draw(shader);
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        tableModel.Draw(shader);
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        couch2Model.Draw(shader);
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        couch3Model.Draw(shader);
+
+        model = glm::translate(model, glm::vec3(3.478f, -8.179f, 4.460f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        plantModel.Draw(shader);
+        
+        model = backup;
+
+
+        model = glm::translate(model, glm::vec3(-3.186f, -4.893f, 4.52f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        plantModel.Draw(shader);
 
         glfwSwapBuffers( window );
     }

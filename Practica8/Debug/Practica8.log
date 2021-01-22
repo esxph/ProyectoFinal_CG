@@ -1,10 +1,10 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Practica8.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Main_P9.cpp
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(116,30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(231,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(232,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(236,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(237,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(239,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(240,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(128,30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(315,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(316,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(320,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(321,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(323,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(324,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
   Practica8.vcxproj -> C:\Users\edwar\source\repos\Proyecto\Debug\Proyecto.exe
