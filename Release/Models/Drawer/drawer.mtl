@@ -1,0 +1,62 @@
+newmtl pasted__lambert7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IMG_0097.JPEG
+Ni 1.00
+newmtl pasted__lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl pasted__lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 1_(151).jpg
+Ni 1.00
+newmtl pasted__pasted__lambert13SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl pasted__pasted__lambert15SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 6130_1000.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert16SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert17SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Wood_14_UV_H_CM_1.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert18SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Wood_14_UV_H_CM_1.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert19SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
