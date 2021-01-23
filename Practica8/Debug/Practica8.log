@@ -1,10 +1,26 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Practica8.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Main_P9.cpp
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(128,30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(315,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(316,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(320,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(321,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(323,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\edwar\source\repos\Proyecto\Practica8\Main_P9.cpp(324,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  mainProyecto.cpp
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(156,30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(342,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(363,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(364,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(368,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(369,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(371,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(372,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(378,39): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(382,37): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(390,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(395,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(396,58): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(400,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(401,58): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(405,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(410,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(414,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+soil2-debug.lib(etc1_utils.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(etc1_utils.obj)' or at 'C:\Users\edwar\source\repos\Proyecto\Debug\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_DXT.obj)' or at 'C:\Users\edwar\source\repos\Proyecto\Debug\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(image_helper.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_helper.obj)' or at 'C:\Users\edwar\source\repos\Proyecto\Debug\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(SOIL2.obj)' or at 'C:\Users\edwar\source\repos\Proyecto\Debug\soil2-debug.pdb'; linking object as if no debug info
   Practica8.vcxproj -> C:\Users\edwar\source\repos\Proyecto\Debug\Proyecto.exe

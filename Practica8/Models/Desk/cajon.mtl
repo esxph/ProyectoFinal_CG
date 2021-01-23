@@ -1,51 +1,25 @@
-newmtl lambert2SG
-illum 4
-Kd 0.50 0.50 0.50
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl lambert4SG
+newmtl pasted__lambert11SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
+map_Kd insideDark.jpg
 Ni 1.00
-newmtl lambert5SG
+newmtl pasted__lambert11SG1
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl lambert6SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd 6130_1000.jpg
-Ni 1.00
-newmtl lambert8SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd IMG_0097.JPEG
-Ni 1.00
-newmtl pasted__pasted__lambert2SG4
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd IMG_0097.JPEG
-Ni 1.00
-newmtl pasted__pasted__lambert4SG3
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd 6130_1000.jpg
+map_Kd insideDark.jpg
 Ni 1.00
 newmtl pasted__pasted__pasted__lambert3SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 6130_1000.jpg
+Ni 1.00
+newmtl pasted__pasted__pasted__lambert3SG3
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -59,7 +33,7 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl pasted__pasted__pasted__lambert6SG2
+newmtl pasted__pasted__pasted__lambert5SG4
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -73,7 +47,21 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd 6130_1000.jpg
 Ni 1.00
+newmtl pasted__pasted__pasted__pasted__lambert3SG4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 6130_1000.jpg
+Ni 1.00
 newmtl pasted__pasted__pasted__pasted__lambert5SG4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl pasted__pasted__pasted__pasted__lambert5SG5
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
