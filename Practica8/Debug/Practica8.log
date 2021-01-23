@@ -1,0 +1,22 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Practica8.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  mainProyecto.cpp
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(164,30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(373,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(374,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(378,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(379,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(381,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(382,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(388,39): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(392,37): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(400,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(405,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(406,58): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(410,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(411,58): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(415,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(420,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(424,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(437,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(441,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Practica8.vcxproj -> C:\Users\edwar\source\repos\Proyecto\Debug\Proyecto.exe

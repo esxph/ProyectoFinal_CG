@@ -30,7 +30,10 @@ void MouseCallback( GLFWwindow *window, double xPos, double yPos );
 void DoMovement( );
 void openDrawer();
 void getChairBack();
+
+ // SE DECLARAN LAS DOS ANIMACIONES COMPLEJAS
 void moveCar();
+void moveBear();
 
 
 // Camera
@@ -52,7 +55,8 @@ float car_x = 0.0;
 float car_y = 0.0;
 float car_z = 0.0;
 float rotCar = 0.0;
-float bear_x = 0.0;
+float rotBear = 0.0;
+float bear_y = 0.0;
 
 
 bool cir1 = true;
@@ -61,6 +65,10 @@ bool cir3 = false;
 bool cir4 = false;
 bool cir5 = false;
 bool cir6 = false;
+
+bool bearCir = false;
+bool cirB1 = true;
+bool cirB2 = false;
 
 bool carCircuit = false;
 bool door = true;
@@ -161,6 +169,7 @@ int main( )
         glfwPollEvents( );
         DoMovement( );
         moveCar();
+        moveBear();
         
         // Clear the colorbuffer
         glClearColor( 1.0f, 1.0f, 1.0f, 1.0f );
@@ -233,7 +242,8 @@ int main( )
         model = backup;
 
         // BEAR LOADING 
-        model = glm::translate(model, glm::vec3(0.0f + bear_x, 0.0f, 0.0f));
+        model = glm::translate(model, glm::vec3(0.0f,0.0f + bear_y, 0.0f));
+        model = glm::rotate(model, rotBear, glm::vec3(0.0f, 0.0f, 1.0f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         bearModel.Draw(shader);
         model = backup;
@@ -338,10 +348,10 @@ void KeyCallback( GLFWwindow *window, int key, int scancode, int action, int mod
         getChairBack(); // FUNCIÓN PARA DESLIZAR LA SILLA HACIA ATRAS
     }
 
-    if (keys[GLFW_KEY_J]) {
-        bear_x = bear_x - 0.1;
-        cout << bear_x;
-        //rotCar = rotCar + 0.1;
+    if (keys[GLFW_KEY_J]) { // ANIMACION CAIDA DEL OSO
+
+        (bearCir == false)? bearCir = true: bearCir=false, rotBear=0.0f,bear_y=0, cirB1=true; // SE ACTIVA LA ANIMACION DEL OSO
+       
     }
 
     if (keys[GLFW_KEY_K]) { // ANIMACIÓN PARA ABRIR LA PUERTA
@@ -415,5 +425,20 @@ void moveCar() {
             carCircuit = false;
         }
 
+    }
+}
+
+
+void moveBear() { 
+
+    if (bearCir) {
+
+        if (cirB1) {
+            (rotBear < 0.4) ? rotBear = rotBear + 0.05 : cirB1 = false, cirB2=true;
+        }
+
+        if (cirB2) {
+            (bear_y > -2.1) ? bear_y = bear_y - 0.1 : cirB2 = false;
+        }
     }
 }
