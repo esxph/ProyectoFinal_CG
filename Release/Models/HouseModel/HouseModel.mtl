@@ -1,375 +1,542 @@
-newmtl houseStructure:lambert2SG
+newmtl HouseModel:initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl HouseModel:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG6
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG10
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG12
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG14
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG16
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG18
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert2SG20
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd fs.png
 Ni 1.00
-newmtl houseStructure:lambert8SG
+newmtl HouseModel:lambert8SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd wood.JPG
 Ni 1.00
-newmtl houseStructure:lambert9SG
+newmtl HouseModel:lambert9SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd wood.JPG
 Ni 1.00
-newmtl houseStructure:lambert10SG
+newmtl HouseModel:lambert10SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd brick.jpg
 Ni 1.00
-newmtl houseStructure:lambert11SG
+newmtl HouseModel:lambert11SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert12SG
+newmtl HouseModel:lambert12SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert13SG
+newmtl HouseModel:lambert13SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert14SG
+newmtl HouseModel:lambert14SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert15SG
+newmtl HouseModel:lambert15SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert16SG
+newmtl HouseModel:lambert16SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert17SG
+newmtl HouseModel:lambert17SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert18SG
+newmtl HouseModel:lambert18SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert19SG
+newmtl HouseModel:lambert19SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert20SG
+newmtl HouseModel:lambert20SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert21SG
+newmtl HouseModel:lambert21SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd wood.JPG
 Ni 1.00
-newmtl houseStructure:lambert22SG
+newmtl HouseModel:lambert23SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert23SG
+newmtl HouseModel:lambert25SG2
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert24SG
+newmtl HouseModel:lambert26SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert25SG
+newmtl HouseModel:lambert26SG2
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert26SG
+newmtl HouseModel:lambert27SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert27SG
+newmtl HouseModel:lambert27SG2
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert28SG
+newmtl HouseModel:lambert28SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert29SG
+newmtl HouseModel:lambert28SG2
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert30SG
+newmtl HouseModel:lambert29SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd tubemetal.jpg
 Ni 1.00
-newmtl houseStructure:lambert31SG
+newmtl HouseModel:lambert29SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:lambert30SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:lambert30SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:lambert31SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd wood.JPG
 Ni 1.00
-newmtl houseStructure:lambert32SG
+newmtl HouseModel:lambert32SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd wood.JPG
 Ni 1.00
-newmtl houseStructure:lambert34SG
+newmtl HouseModel:lambert34SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:lambert36SG
+newmtl HouseModel:lambert36SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:lambert37SG
+newmtl HouseModel:lambert37SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd textureroof.JPEG
 Ni 1.00
-newmtl houseStructure:lambert38SG
+newmtl HouseModel:lambert38SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:lambert39SG
+newmtl HouseModel:lambert38SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:lambert39SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd textureroof.JPEG
 Ni 1.00
-newmtl houseStructure:pasted__lambert7SG
+newmtl HouseModel:pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodwhite.jpg
+Ni 1.00
+newmtl HouseModel:pasted__lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd roof_ceiling.JPEG
+Ni 1.00
+newmtl HouseModel:pasted__lambert7SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd brick.jpg
 Ni 1.00
-newmtl houseStructure:pasted__lambert7SG1
+newmtl HouseModel:pasted__lambert7SG2
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd brick.jpg
 Ni 1.00
-newmtl houseStructure:pasted__lambert8SG
+newmtl HouseModel:pasted__lambert8SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd wood.JPG
 Ni 1.00
-newmtl houseStructure:pasted__lambert9SG
+newmtl HouseModel:pasted__lambert9SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd wood.JPG
 Ni 1.00
-newmtl houseStructure:pasted__lambert34SG1
+newmtl HouseModel:pasted__lambert34SG1
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:pasted__pasted__lambert35SG
+newmtl HouseModel:pasted__pasted__lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd roof_ceiling.JPEG
+Ni 1.00
+newmtl HouseModel:pasted__pasted__lambert24SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__lambert26SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__lambert27SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__lambert28SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__lambert29SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__lambert30SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__lambert35SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:pasted__pasted__pasted__lambert35SG
+newmtl HouseModel:pasted__pasted__lambert38SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:pasted__pasted__pasted__lambert35SG1
+newmtl HouseModel:pasted__pasted__pasted__lambert5SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd roof_ceiling.JPEG
+Ni 1.00
+newmtl HouseModel:pasted__pasted__pasted__lambert22SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__pasted__lambert26SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__pasted__lambert27SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__pasted__lambert28SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__pasted__lambert29SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__pasted__lambert30SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tubemetal.jpg
+Ni 1.00
+newmtl HouseModel:pasted__pasted__pasted__lambert35SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:window:lambert2SG
+newmtl HouseModel:pasted__pasted__pasted__lambert35SG1
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:window5:lambert2SG
+newmtl HouseModel:pasted__pasted__pasted__lambert38SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:window6:lambert2SG
+newmtl HouseModel:pasted__pasted__pasted__pasted__lambert5SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd roof_ceiling.JPEG
+Ni 1.00
+newmtl HouseModel1:lambert2SG14
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:window7:lambert2SG
+newmtl HouseModel2:lambert2SG14
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure:window8:lambert2SG
+newmtl HouseModel3:lambert2SG14
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure1:lambert22SG
+newmtl HouseModel4:lambert2SG14
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
+map_Kd woodwhite.jpg
 Ni 1.00
-newmtl houseStructure1:lambert23SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl houseStructure1:lambert24SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl houseStructure1:lambert25SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl houseStructure1:lambert26SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl houseStructure1:lambert27SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl houseStructure1:lambert28SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl houseStructure1:lambert29SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl houseStructure1:lambert30SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl houseStructure1:lambert38SG
+newmtl HouseModel5:lambert2SG14
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -378,231 +545,7 @@ map_Kd woodwhite.jpg
 Ni 1.00
 newmtl initialShadingGroup
 illum 4
-Kd 0.00 0.00 0.00
+Kd 0.50 0.50 0.50
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl lambert33SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl pasted__lambert2SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl pasted__lambert5SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd roof_ceiling.JPEG
-Ni 1.00
-newmtl pasted__lambert33SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert5SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd roof_ceiling.JPEG
-Ni 1.00
-newmtl pasted__pasted__lambert22SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert23SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert24SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert25SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert26SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert27SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert28SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert29SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert30SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__lambert38SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert5SG1
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd roof_ceiling.JPEG
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert22SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert23SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert24SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert25SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert26SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert27SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert28SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert29SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert30SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd tubemetal.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__lambert38SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl pasted__pasted__pasted__pasted__lambert5SG1
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd roof_ceiling.JPEG
-Ni 1.00
-newmtl window9:lambert2SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl window10:lambert2SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl window11:lambert2SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl window12:lambert2SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
-Ni 1.00
-newmtl window13:lambert2SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd woodwhite.jpg
 Ni 1.00

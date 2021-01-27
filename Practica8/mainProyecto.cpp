@@ -58,6 +58,8 @@ float rotCar = 0.0;
 float rotBear = 0.0;
 float bear_y = 0.0;
 
+float plant_x = 0.0;
+
 
 bool cir1 = true;
 bool cir2 = false;
@@ -150,6 +152,10 @@ int main( )
     Model couch3Model((char*)"Models/Couch/Couch2ndfloor2.obj");
     Model plantModel((char*)"Models/Plant/plant.obj"); 
     Model doorModel((char*)"Models/Door/door.obj");
+    Model kitchenModel((char*)"Models/Kitchen/kitchen.obj");
+    Model tableKit((char*)"Models/TableKit/tablekit.obj");
+    Model teapot((char*)"Models/Teapot/teapot.obj");
+
 
     // Draw in wireframe
     //glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
@@ -277,10 +283,32 @@ int main( )
         
         model = backup;
 
+        model = glm::translate(model, glm::vec3(5.178, -8.179f, 4.460f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        plantModel.Draw(shader);
+
+        model = backup;
+
 
         model = glm::translate(model, glm::vec3(-3.186f, -4.893f, 4.52f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         plantModel.Draw(shader);
+
+        model = backup;
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        kitchenModel.Draw(shader);
+        model = backup;
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        tableKit.Draw(shader);
+
+        model = backup;
+
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        teapot.Draw(shader);
+
+        
+
 
         glfwSwapBuffers( window );
     }
@@ -362,6 +390,13 @@ void KeyCallback( GLFWwindow *window, int key, int scancode, int action, int mod
         
         (carCircuit == false) ? carCircuit = true,cir1=true  : carCircuit = false; // INICIAR LA ANIMACION DEL COCHE
        
+    }
+
+    if (keys[GLFW_KEY_P]) {
+
+        plant_x = plant_x + 0.1;
+        cout << plant_x;
+
     }
 
 }

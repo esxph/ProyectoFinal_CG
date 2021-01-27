@@ -1,0 +1,33 @@
+﻿  mainProyecto.cpp
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(170,30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(397,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(408,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(409,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(413,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(414,21): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(416,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(417,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(423,39): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(427,37): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(435,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(440,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(441,58): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(445,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(446,58): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(450,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(455,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(459,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(472,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\edwar\source\repos\Proyecto\Practica8\mainProyecto.cpp(476,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+soil2-debug.lib(SOIL2.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  1 of 579 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+soil2-debug.lib(etc1_utils.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(etc1_utils.obj)' or at 'C:\Users\edwar\source\repos\Proyecto\Release\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_DXT.obj)' or at 'C:\Users\edwar\source\repos\Proyecto\Release\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(image_helper.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_helper.obj)' or at 'C:\Users\edwar\source\repos\Proyecto\Release\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(SOIL2.obj)' or at 'C:\Users\edwar\source\repos\Proyecto\Release\soil2-debug.pdb'; linking object as if no debug info
+  Practica8.vcxproj -> C:\Users\edwar\source\repos\Proyecto\Release\Proyecto.exe
